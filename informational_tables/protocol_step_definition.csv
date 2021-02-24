@@ -1,0 +1,16 @@
+protocol_id,step,amlodipine,telmisartan,losartan,atenolol,enalapril,chlorthalidone,hydrochlorothiazide,other_bp_medications
+ee0da491-ad92-41d7-89f6-b086ff94d8c0,1,5,0,0,0,0,0,0,0
+ee0da491-ad92-41d7-89f6-b086ff94d8c0,2,10,0,0,0,0,0,0,0
+ee0da491-ad92-41d7-89f6-b086ff94d8c0,3,10,40,0,0,0,0,0,0
+ee0da491-ad92-41d7-89f6-b086ff94d8c0,4,10,80,0,0,0,0,0,0
+ee0da491-ad92-41d7-89f6-b086ff94d8c0,5,10,80,0,0,0,12.5,0,0
+ee0da491-ad92-41d7-89f6-b086ff94d8c0,6,10,80,0,0,0,25,0,0
+7f9bb1e6-f8c2-45d0-9cae-dce6b9d80a44,1,5,0,0,0,0,0,0,0
+7f9bb1e6-f8c2-45d0-9cae-dce6b9d80a44,2,10,0,0,0,0,0,0,0
+7f9bb1e6-f8c2-45d0-9cae-dce6b9d80a44,3,10,40,0,0,0,0,0,0
+7f9bb1e6-f8c2-45d0-9cae-dce6b9d80a44,4,10,80,0,0,0,0,0,0
+7f9bb1e6-f8c2-45d0-9cae-dce6b9d80a44,5,10,80,0,0,0,12.5,0,0
+7f9bb1e6-f8c2-45d0-9cae-dce6b9d80a44,6,10,80,0,0,0,25,0,0
+666a5f7f-922c-46f3-83aa-b5085dd6c82d,1,5,0,0,0,0,0,0,0
+666a5f7f-922c-46f3-83aa-b5085dd6c82d,2,5,0,50,0,0,0,0,0
+666a5f7f-922c-46f3-83aa-b5085dd6c82d,3,5,0,50,0,0,0,12.5,0
