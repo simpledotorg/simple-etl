@@ -163,7 +163,7 @@ psot_query = """
             WHEN eot.months_since_encounter < 6 THEN 'Between 3 and 6 months'
             WHEN eot.months_since_encounter < 9 THEN 'Between 6 and 9 months'
             WHEN eot.months_since_encounter < 12 THEN 'Between 9 and 12 months'
-            WHEN eot.months_since_encounter > 12 THEN 'More than 12 months'
+            WHEN eot.months_since_encounter >= 12 THEN 'More than 12 months'
             WHEN eot.months_since_encounter IS null THEN 'No encounter'
             ELSE 'Undefined'
         END
@@ -174,7 +174,7 @@ psot_query = """
             WHEN bpoot.months_since_bp_observation < 6 THEN 'Between 3 and 6 months'
             WHEN bpoot.months_since_bp_observation < 9 THEN 'Between 6 and 9 months'
             WHEN bpoot.months_since_bp_observation < 12 THEN 'Between 9 and 12 months'
-            WHEN bpoot.months_since_bp_observation > 12 THEN 'More than 12 months'
+            WHEN bpoot.months_since_bp_observation >= 12 THEN 'More than 12 months'
             WHEN bpoot.months_since_bp_observation IS null THEN 'No measurement'
             ELSE 'Undefined'
         END
