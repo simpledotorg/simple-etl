@@ -13,7 +13,8 @@ SELECT
 				OR current_meds.losartan > past_meds.losartan
 				OR current_meds.atenolol > past_meds.atenolol
 				OR current_meds.enalapril > past_meds.enalapril
-				OR current_meds.chlorthalidone > past_meds.chlorthalidone)
+				OR current_meds.chlorthalidone > past_meds.chlorthalidone
+			    	OR current_meds.hydrochlorothiazide > past_meds.hydrochlorothiazide)
 				--Note: Patients who only have "current_meds.other_bp_medication" increaesd will not be included
 		as numerator,
 					
